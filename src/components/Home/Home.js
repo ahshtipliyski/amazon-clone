@@ -17,7 +17,7 @@ function Home() {
         <Product
           id={uuidv4()}
           title="The lean startup"
-          price={29.99}
+          price={35.64}
           image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
           rating={5}
         />
@@ -46,19 +46,19 @@ function Home() {
         />
         <Product
           id={uuidv4()}
-          title="The lean startup"
-          price={29.99}
-          image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+          title="Apple iPad Pro (12.9-inch, Wi-Fi + Cellular, 512GB) - Silver (3rd Generation)"
+          price={1799.90}
+          image="https://images-na.ssl-images-amazon.com/images/I/71Egx0o9q3L._AC_SY450_.jpg"
           rating={5}
         />
       </div>
       <div className="home__row">
         <Product
           id={uuidv4()}
-          title="The lean startup"
-          price={29.99}
-          image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
-          rating={5}
+          title="Samsung Home Entertainment LC49G95TSSNXZA 240Hz G-Sync WQHD Curved Super Wide 32:9 Gaming Monitor - 49 inch, Dark Blue Grey"
+          price={1999.99}
+          image="https://images-na.ssl-images-amazon.com/images/I/81r8JazRcoL._AC_SX569_.jpg"
+          rating={4}
         />
       </div>
     </div>
