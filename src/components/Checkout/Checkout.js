@@ -6,8 +6,7 @@ import { useStateValue } from "../../StateProvider";
 import { v4 as uuidv4 } from "uuid";
 
 function Checkout() {
-  const [{ basket }] = useStateValue();
-
+  const [{ basket, user }] = useStateValue();
   return (
     <div className="checkout">
       <div className="checkout__left">
@@ -17,6 +16,7 @@ function Checkout() {
           alt="ad banner"
         />
         <div>
+          <h3>Hello, {user?.email}</h3>
           <h2 className="checkout__title">Your shopping Basket</h2>
           {basket.map((item) => (
             <CheckoutProduct

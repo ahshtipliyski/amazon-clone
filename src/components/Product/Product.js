@@ -6,7 +6,6 @@ import { v4 as uuidv4 } from "uuid";
 
 function Product({ id, title, image, price, rating }) {
   const [{basket}, dispatch] = useStateValue();
-  console.log('this is the basket >>>>>', basket)
   const addToBasket = () => {
     dispatch({
       type: 'ADD_TO_BASKET',
