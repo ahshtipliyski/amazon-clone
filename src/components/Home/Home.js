@@ -47,7 +47,7 @@ function Home() {
         <Product
           id={uuidv4()}
           title="Apple iPad Pro (12.9-inch, Wi-Fi + Cellular, 512GB) - Silver (3rd Generation)"
-          price={1799.90}
+          price={799.90}
           image="https://images-na.ssl-images-amazon.com/images/I/71Egx0o9q3L._AC_SY450_.jpg"
           rating={5}
         />
